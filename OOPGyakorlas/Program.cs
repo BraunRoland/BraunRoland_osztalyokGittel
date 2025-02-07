@@ -44,11 +44,26 @@
             Console.WriteLine(k2);
         }
 
+        static void F04()
+        {
+            Urhajo u1 = new("Apollo", 321, 4, 75);
+            Urhajo u2 = new("Apollo 2", 7);
+            u1.Indulas();
+            u2.Indulas();
+            u1.Tankolás(40);
+            u2.Tankolás(10);
+            u1.Landolás();
+            u2.Landolás();
+            Console.WriteLine(u1);
+            Console.WriteLine(u2);
+        }
+
         static void Main(string[] args)
         {
             F01();
             F02();
             F03();
+            F04();
         }
     }
 }

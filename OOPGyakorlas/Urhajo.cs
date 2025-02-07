@@ -40,7 +40,7 @@ namespace OOPGyakorlas
             uzemanyagSzint -= 10;
         }
 
-        public void Mennyiseg(int mennyiseg)
+        public void Tankolás(int mennyiseg)
         {
             uzemanyagSzint += mennyiseg;
         }
