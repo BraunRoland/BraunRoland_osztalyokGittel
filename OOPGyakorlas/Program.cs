@@ -15,9 +15,25 @@
             Console.WriteLine(k1);
             Console.WriteLine(k2);
         }
+
+        static void F02()
+        {
+            Film f1 = new("Éjjeli féreg", "Dan Gilroy", 117, "thriller", true);
+            Film f2 = new("Készül", "én");
+            f1.Jatszas();
+            f2.Jatszas();
+            f1.MufajModositas("dráma");
+            f2.MufajModositas("vígjáték");
+            f1.HosszNovelese(21);
+            f2.HosszNovelese(100);
+            Console.WriteLine(f1);
+            Console.WriteLine(f2);
+        }
+
         static void Main(string[] args)
         {
             F01();
+            F02();
         }
     }
 }
