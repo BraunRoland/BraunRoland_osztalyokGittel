@@ -30,10 +30,25 @@
             Console.WriteLine(f2);
         }
 
+        static void F03()
+        {
+            Karakter k1 = new("János", 23, 150, 6);
+            Karakter k2 = new("Alma", 15);
+            k1.Tamadas();
+            k2.Tamadas();
+            k1.Gyogyulas(3);
+            k2.Gyogyulas(31);
+            k1.Szintlepes();
+            k2.Szintlepes();
+            Console.WriteLine(k1);
+            Console.WriteLine(k2);
+        }
+
         static void Main(string[] args)
         {
             F01();
             F02();
+            F03();
         }
     }
 }
