@@ -45,7 +45,7 @@ namespace OOPGyakorlas
             uzemanyagSzint += mennyiseg;
         }
 
-        public void landolás()
+        public void Landolás()
         {
             sebesség = 0;
         }
