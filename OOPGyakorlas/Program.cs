@@ -58,12 +58,27 @@
             Console.WriteLine(u2);
         }
 
+        static void F05()
+        {
+            Kem k1 = new("047", "USA", 40, 12);
+            Kem k2 = new("en", "HUN");
+            k1.KuldetesInditasa();
+            k2.KuldetesInditasa();
+            k1.SikerEselyNovelese(20);
+            k2.SikerEselyNovelese(30);
+            k1.VeszelySzintNovelese(3);
+            k2.VeszelySzintNovelese(7);
+            Console.WriteLine(k1);
+            Console.WriteLine(k2);
+        }
+
         static void Main(string[] args)
         {
             F01();
             F02();
             F03();
             F04();
+            F05();
         }
     }
 }
